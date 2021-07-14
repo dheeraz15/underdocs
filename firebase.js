@@ -1,12 +1,12 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCjGDRieV5VMdNNAhilXXodCj-PQpgthS0",
-    authDomain: "underdocs-13933.firebaseapp.com",
-    projectId: "underdocs-13933",
-    storageBucket: "underdocs-13933.appspot.com",
-    messagingSenderId: "366071427590",
-    appId: "1:366071427590:web:5719370a32a1f3647a0987"
+  apiKey: "AIzaSyC8qphewYQ3HsmSpMvyJwweqAGM2xVsgBE",
+  authDomain: "underdocs-babfc.firebaseapp.com",
+  projectId: "underdocs-babfc",
+  storageBucket: "underdocs-babfc.appspot.com",
+  messagingSenderId: "372978033308",
+  appId: "1:372978033308:web:659f917ac6c6ecdb4dc359"
 };
 
 const app = !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app()

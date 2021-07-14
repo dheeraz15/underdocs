@@ -4,7 +4,6 @@ import { db } from '../../../firebase'
 import { FirebaseAdapter } from '@next-auth/firebase-adapter';
 
 export default NextAuth({
-    // Configure one or more authentication providers
     providers: [
         Providers.Google({
             clientId: process.env.GOOGLE_ID,
