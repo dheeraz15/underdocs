@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider next start"
   },
   "dependencies": {
     "@material-tailwind/react": "0.3.4",
     "@next-auth/firebase-adapter": "^0.1.2",
+    "cross-env": "^7.0.3",
     "draft-js": "^0.11.7",
     "firebase": "^8.7.1",
     "next": "latest",
